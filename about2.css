@@ -17,9 +17,6 @@
     align-items: center;
     margin: 3% 8% 0% 8%;
 }
-.about-inner-container2 img{
-    
-}
 .about-msg2{
     display: flex;
     flex-direction: column;
@@ -67,7 +64,7 @@
     font-size: 19px;
     padding: 8px 20px 8px 20px;
     background-color: orange;
-    border-radius: 5px;
+    border-radius: 3px;
     margin-top: 0px;
 }
 .about-msg2 .services-btn a:hover{
