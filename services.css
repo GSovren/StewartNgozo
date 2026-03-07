@@ -113,8 +113,19 @@
     width: 30px;
     margin-bottom: 1.5rem;
 }
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
 .service-points3 .flutter-icon img{
     height: 28px;
+    width: 115px;
+    margin-bottom: 2rem;
+}
+.service-points3 .native-icon img{
+    height: 40px;
     width: 115px;
     margin-bottom: 2rem;
 }
