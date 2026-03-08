@@ -71,13 +71,13 @@ body{
     align-items: center;
     padding: 0px 0px;
     width: 100%;
-    max-height: 4.8rem;
+    max-height: 4.1rem;
     z-index: 1000;
 }
 .navbar.scrolled {
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 2px 10px var(--brand--color--1);
-    transition:  background-color .4s ease-in-out;
+    transition:  background-color .1s ease-in-out;
 }
 .navbar-inner{
     display: flex;
@@ -366,5 +366,6 @@ body{
     }
 }
 /*responsive copyright css end*/
+
 
 
