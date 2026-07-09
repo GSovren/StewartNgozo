@@ -82,7 +82,7 @@
     justify-content: space-between;
     border: 2px solid var(--brand--color--4);
     padding: 20px 0px;
-    font-size: 14px;
+    font-size: 10px;
     border-radius: 15px;
     width: 100%;
 }
@@ -104,7 +104,8 @@
 .service-points2 h2{
     font-size: 24px;
     color: black;
-    margin-left: 10px; 
+    margin-left: 10px;
+    margin-bottom: 20px; 
 }
 .service-points3 h2{
     font-size: 24px;
@@ -240,6 +241,9 @@
     .service-points3{
         margin: 0rem 0rem 0rem 0rem;
     }  
+    .service-points2 h2{
+        margin-bottom: 10px;
+    }
 
 }
 @media only screen and (max-width: 840px){
@@ -287,12 +291,15 @@
     }
     .service-points1 h2{
         font-size: 24px;
+        margin-bottom: 10px;
     }
     .service-points2 h2{
         font-size: 24px;
+        margin-bottom: 10px;
     }
     .service-points3 h2{
         font-size: 24px;
+        margin-bottom: 10px;
     }
     .service-points1 i{
         font-size: 24px;
