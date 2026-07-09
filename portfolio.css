@@ -57,7 +57,7 @@
     font-weight: 500;
     height: 220px;
     color: var(--brand--color--2);
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
     background-color: rgb(0, 0, 0, 0.7);
 }
 .card-inner img{
