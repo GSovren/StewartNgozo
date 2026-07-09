@@ -1,11 +1,18 @@
 /*portfolio css start*/
+:root{
+    --brand--color--1: #0CC0DF;
+    --brand--color--2: #FFFFFF;
+    --brand--color--3: #3498db;
+}                            
+
+
 .portfolio{
     display: flex;
     flex-direction: column;
     justify-content: center ;
     align-items: center;
     background-color: var(--brand--color--2);
-    padding: 5% 5%;
+    padding: 8% 8%;
     margin-bottom: 20px;
 }
 
@@ -376,4 +383,3 @@
     }
  }
 /*responsive portfolio css end*/
-
