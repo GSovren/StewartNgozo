@@ -73,7 +73,6 @@
     justify-content: space-between;
     border: 2px solid var(--brand--color--4);
     padding: 20px 0px;
-    font-size: 12px;
     border-radius: 15px;
     width: 100%;
     box-shadow: 5px 4px 8px rgb(0, 0, 0, 0.2);
@@ -84,7 +83,6 @@
     justify-content: space-between;
     border: 2px solid var(--brand--color--4);
     padding: 20px 0px;
-    font-size: 12px;
     border-radius: 15px;
     width: 100%;
     box-shadow: 3px 4px 8px rgb(0, 0, 0, 0.3);
@@ -95,7 +93,6 @@
     justify-content: space-between;
     border: 2px solid var(--brand--color--4);
     padding: 20px 0px;
-    font-size: 12px;
     border-radius: 15px;
     width: 100%;
     box-shadow: 5px 4px 8px rgb(0, 0, 0, 0.2);
@@ -109,7 +106,7 @@
     font-size: 24px;
     color: black;
     margin-left: 10px;
-    margin-bottom: 20px; 
+    margin-bottom: 0px; 
 }
 .service-points3 h2{
     font-size: 24px;
@@ -129,19 +126,22 @@
     font-size: 26px;
 }
 .service-points1 p{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     margin-bottom: 10px;
+    padding: 0% 3%;
 }
 .service-points2 p{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     margin-bottom: 10px;
+    padding: 0% 3%;
 }
 .service-points3 p{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     margin-bottom: 10px;
+    padding: 0% 3%;
 }
 .level{
     display: flex;
