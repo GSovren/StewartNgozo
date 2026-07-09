@@ -1,5 +1,12 @@
 
 /*services css start*/
+:root{
+    --brand--color--1: #0CC0DF;
+    --brand--color--2: #FFFFFF;
+    --brand--color--3: #3498db;
+    --brand--color--4: #136fad;
+}                            
+
 .services{
     display: flex;
     justify-content: center;
@@ -19,15 +26,16 @@
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    max-width: 1400px;
-    margin: 0% 10% 0% 10%;
-    padding: 20px;
+    margin: 0% 8% 0% 8%;
+    padding: 0px;
+    width: 100%;
 }
 .services-inner-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .services-heading{
     display: flex;
@@ -41,7 +49,7 @@
 .services-heading h1{
     text-align: left;
     color: black;
-    font-size: 40px;
+    font-size: 36px;
     border-bottom: 2.5px solid var(--brand--color--1);
 }
 .service-points1 i{
@@ -56,16 +64,37 @@
     text-align: center;
     width: 100%;
     color: black;
-    margin: 1.5rem;
+    gap: 10px ;
 }
 .service-points1{
-    margin: 0rem 1.5rem 0rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid var(--brand--color--4);
+    padding: 20px 0px;
+    font-size: 14px;
+    border-radius: 15px;
+    width: 100%;
 }
 .service-points2{
-    margin: 4.5rem 1.5rem 0rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid var(--brand--color--4);
+    padding: 20px 0px;
+    font-size: 14px;
+    border-radius: 15px;
+    width: 100%;
 }
 .service-points3{
-    margin: 10.5rem 1.5rem 0rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid var(--brand--color--4);
+    padding: 20px 0px;
+    font-size: 14px;
+    border-radius: 15px;
+    width: 100%;
 }
 .service-points1 h2{
     font-size: 24px;
@@ -109,6 +138,47 @@
     font-weight: 300;
     margin-bottom: 10px;
 }
+.level{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #86dbea4a;
+    color: rgb(87, 87, 87);
+    padding: 10px 15px;
+    font-size: 14px;
+    width: 100%;
+    gap: 1px;
+}
+.guage{
+    display: flex;
+    align-items: center;
+}
+.level-label{
+    color: rgb(87, 87, 87);
+    font-size: 15px;
+    font-weight: 600;
+}
+.red{
+    width: 15px;
+    height: 5px;
+    background-color: rgb(252, 105, 56);
+}
+.amber{
+    width: 15px;
+    height: 5px;
+    background-color: orange;
+}
+.lime{
+    width: 15px;
+    height: 5px;
+    background-color: rgb(153, 255, 0);
+}
+.green{
+    width: 15px;
+    height: 5px;
+    background-color: rgb(68, 255, 0);
+}
 .service-points .ui-icons img{
     height: 30px;
     width: 30px;
@@ -146,7 +216,7 @@
 /*responsive services css start*/
 @media only screen and (max-width: 1210px){
     .services{
-        height: 1150px;
+        height: auto;
     }
     .services-heading{
         justify-content: center;
@@ -159,6 +229,7 @@
 }
     .service-points-container{
         flex-direction: column;
+        gap: 0px;
     }
     .service-points1{
         margin: 0rem 0rem 0rem 0rem;
