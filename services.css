@@ -65,6 +65,7 @@
     width: 100%;
     color: black;
     gap: 10px ;
+    
 }
 .service-points1{
     display: flex;
@@ -72,9 +73,10 @@
     justify-content: space-between;
     border: 2px solid var(--brand--color--4);
     padding: 20px 0px;
-    font-size: 14px;
+    font-size: 12px;
     border-radius: 15px;
     width: 100%;
+    box-shadow: 5px 4px 8px rgb(0, 0, 0, 0.2);
 }
 .service-points2{
     display: flex;
@@ -82,9 +84,10 @@
     justify-content: space-between;
     border: 2px solid var(--brand--color--4);
     padding: 20px 0px;
-    font-size: 10px;
+    font-size: 12px;
     border-radius: 15px;
     width: 100%;
+    box-shadow: 3px 4px 8px rgb(0, 0, 0, 0.3);
 }
 .service-points3{
     display: flex;
@@ -92,9 +95,10 @@
     justify-content: space-between;
     border: 2px solid var(--brand--color--4);
     padding: 20px 0px;
-    font-size: 14px;
+    font-size: 12px;
     border-radius: 15px;
     width: 100%;
+    box-shadow: 5px 4px 8px rgb(0, 0, 0, 0.2);
 }
 .service-points1 h2{
     font-size: 24px;
