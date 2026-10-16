@@ -205,17 +205,17 @@
 .web1 h2{
     font-size: 15px;
     font-weight: 400;
-    margin: 0px 30px 5px 30px;
+    margin: 0px 0px 5px 25px;
 }
 .web2 h2{
     font-size: 15px;
     font-weight: 400;
-    margin: 0px 20px 5px 20px;
+    margin: 0px 0px 5px 25px;
 }
 .web3 h2{
     font-size: 15px;
     font-weight: 400;
-    margin: 0px 20px 5px 20px;
+    margin: 0px 0px 5px 25px;
 }
 .web-mobile h2{
     display: flex;
@@ -294,7 +294,7 @@
     transition: .2s ease-in;
 }
 .prototype-btn a{
-    margin: 10px 30px 10px 25px;
+    margin: 10px 0px 10px 25px;
     font-size: 14px;
     display: flex;
     justify-content: center;
